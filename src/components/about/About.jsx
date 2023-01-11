@@ -3,7 +3,7 @@ import './about.css'
 import ME from "../../assets/me-about.jpg"
 import {BsAward} from 'react-icons/bs'
 import {FiUsers} from 'react-icons/fi'
-import {AiOutlineFundProjectionScreen} from 'react-icons/ai'
+
 
 const About = () => {
   return (
@@ -14,7 +14,7 @@ const About = () => {
    <div className='container about__container'>
     <div className='about__me'>
       <div className='about__me-image'>
-        <img src={ME} alt=" about-image" />
+        <img src={ME} alt="portfolio owner passport" />
       </div>
     </div>
 
